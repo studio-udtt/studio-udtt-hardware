@@ -33,7 +33,7 @@ String luxStatus = "어두움"; // 실시간 조도 상태 저장용 변수
 
 // [0. 와이파이 설정]
 const char* ssid = "SSID";           // 공유기 SSID 입력
-const char* password = "PASSWORD"; // 공유기 비밀번호 입력
+const char* password = "PASSWORD";   // 공유기 비밀번호 입력
 
 // [0. HTML 설정]
 WebServer server(80);
