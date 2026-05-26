@@ -36,7 +36,7 @@ const char* ssid = "SSID";           // 공유기 SSID 입력
 const char* password = "PASSWORD"; // 공유기 비밀번호 입력
 
 // [0. 서버 설정]
-const char* serverUrl = "http://your-backend-server-ip:8080/api/v1/space/telemetry";  // 서버 엔드포인트 정의
+const char* serverUrl = "https://api.studio.udtt.org/api/v1/space/telemetry";  // 서버 엔드포인트 정의
 const char* deviceId = "ESP32_S3_1";                                                  // 기기 식별 ID 정의
 
 // [0. 비동기 타이머 변수 정의]
